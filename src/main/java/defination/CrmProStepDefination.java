@@ -33,6 +33,7 @@ public class CrmProStepDefination {
     public void title_of_login_page_is_crmpro() {
     	String title= driver.getTitle();
     	System.out.println(title);
+	    System.out.println(title);
     	assertEquals("#1 Free CRM software in the cloud for sales and service", title);
     }
 
